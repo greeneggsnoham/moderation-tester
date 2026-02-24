@@ -1,0 +1,20 @@
+# TODO
+
+
+- [ ] Implement moderation on/off toggle in the UI and request pipeline.
+- [ ] Add support for configurable moderation levels/categories per model (when supported).
+- [ ] Implement document upload for PDF, CSV, and Word files and attach to prompts.
+- [ ] Build a chat-like response view that includes any moderation responses.
+- [ ] Show a loading spinner while waiting for LLM responses.
+- [ ] Provide provider selection for OpenAI, ELM Local, and Gemini.
+- [ ] When the user has selected OpenAI as a provider, they can select the models o3, o4-mini, gpt-5 gpt-5.1 and gpt-5.2
+- [ ] When moderation is off for OpenAI, the request is sent to the moderation endpoint, then to the selected model. 
+- [ ] When moderation is on for OpenAI the request is sent only to the selected model. 
+- [ ] When the user has selected Gemini, they can select Gemini Pro, Flash
+- [ ] When the user has selected Gemini with moderation on, then the safety settings are set to high for all categories
+- [ ] When the user has selected Gemini with moderation off, then the safety settings are set to negligible for all categories
+- [ ] Implement provider integrations in Python with API key configuration.
+- [ ] Deliver a local web UI accessible via browser.
+- [ ] Document minimal setup and usage instructions.
+- [ ] Ensure secure handling of API keys and uploaded documents.
+- [ ] Confirm the tool is scoped for internal evaluation only (non-public deployment).
