@@ -11,21 +11,22 @@ Welcome to the Moderation Tester GitHub project! Moderation Tester is designed t
 
 ## Getting Started
 
-To get started with Moderation Tester, follow these simple steps:
+To get started with Moderation Tester, follow these steps:
 
-1. **Clone the Repository:** Clone the repository to your local machine using the command:
+1. **Install Dependencies:** From the project folder, install Python dependencies:
     ```bash
-    git clone https://github.com/yourusername/moderation-tester.git
+    pip install flask requests
     ```
 
-2. **Install Dependencies:** Ensure all necessary dependencies are installed. Navigate to the project folder and run:
+2. **Set API Keys:** Configure provider keys via environment variables:
     ```bash
-    npm install
+    set OPENAI_API_KEY=your_key
+    set GEMINI_API_KEY=your_key
     ```
 
-3. **Run the Application:** Start the application using the following command:
+3. **Run the Application:** Start the local web app:
     ```bash
-    npm start
+    python moderation-tester.py
     ```
 
 ## Usage
@@ -33,6 +34,7 @@ To get started with Moderation Tester, follow these simple steps:
 - **Configure Moderation:** Adjust the moderation settings via the provided interface before sending any requests. This will help in assessing how moderation affects responses.
 - **Upload Documents:** You may upload accompanying documents to test how each model handles additional data. The upload feature can be accessed on the main testing page.
 - **Test Different Models:** Choose from a variety of models and providers to compare how different systems handle moderated inputs.
+- **Internal Use Only:** This tool is intended for internal evaluation purposes.
 
 ## Contributing
 
