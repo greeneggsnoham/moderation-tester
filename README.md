@@ -20,12 +20,12 @@ To get started with Moderation Tester, follow these simple steps:
 
 2. **Install Dependencies:** Ensure all necessary dependencies are installed. Navigate to the project folder and run:
     ```bash
-    npm install
+    pip install -r requirements.txt
     ```
 
 3. **Run the Application:** Start the application using the following command:
     ```bash
-    npm start
+    python -m streamlit run app.py
     ```
 
 ## Usage
@@ -47,3 +47,4 @@ This project is licensed under the MIT Licence. See the [LICENSE](LICENSE) file 
 If you have questions or would like to provide feedback, please reach out through the Issues section of the GitHub repository.
 
 Happy Testing!
+

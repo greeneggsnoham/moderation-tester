@@ -1,0 +1,51 @@
+# How To Run (CMD Terminal)
+
+These instructions assume you are using **Command Prompt (`cmd`)**, not PowerShell.
+
+## 1. Open terminal in project folder
+
+```cmd
+cd C:\Users\ahaywar2\Documents\python\Dev_Projects\turn-moderation-off\moderation-tester
+```
+
+## 2. Create and activate a virtual environment
+
+```cmd
+py -m venv .venv
+.venv\Scripts\activate
+```
+
+## 3. Install dependencies
+
+```cmd
+pip install -r requirements.txt
+```
+
+## 4. Create your `.env` file
+
+```cmd
+copy .env.example .env
+```
+
+Then open `.env` and set at least:
+
+```env
+OPENAI_API_KEY=your_api_key_here
+```
+
+## 5. Run the app
+
+```cmd
+py -m streamlit run app.py
+```
+
+## 6. Open in browser
+
+Streamlit will print a local URL in terminal, usually:
+
+`http://localhost:8501`
+
+## Notes
+
+- If VS Code shows: `terminal environment injection is disabled`, this does **not** block this app.
+- The app loads `.env` directly using `python-dotenv` when it starts.

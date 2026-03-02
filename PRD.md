@@ -23,7 +23,7 @@ The primary aim of the Moderation Tester is to evaluate how much of an improveme
    - Responses are displayed in a chat-like interface, including any moderation responses received.
 
 4. **Provider Selection**
-   - Users can select between providers: OpenAI, ELM Local, and Gemini.
+   - Not relevant at this time
 
 ## Technology and Platform
 
