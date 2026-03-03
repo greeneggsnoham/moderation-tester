@@ -1,16 +1,16 @@
 # TODO
 
 
-- [ ] Implement moderation on/off toggle in the UI and request pipeline.
+- [x] Implement moderation on/off toggle in the UI and request pipeline.
 - [ ] Add support for configurable moderation levels/categories per model (when supported).
-- [ ] Implement document upload for PDF, CSV, and Word files and attach to prompts.
-- [ ] Build a chat-like response view that includes any moderation responses.
-- [ ] Show a loading spinner while waiting for LLM responses.
-- [ ] User can select the models o3, o4-mini, gpt-5, gpt-5.1 and gpt-5.2
-- [ ] When moderation is off for OpenAI, the request is sent to the selected model. 
-- [ ] When moderation is on for OpenAI the request is sent to the moderation model and then to the selected model. 
-- [ ] Implement provider integrations in Python with API key configuration.
-- [ ] Deliver a local web UI accessible via browser.
-- [ ] Document minimal setup and usage instructions.
-- [ ] Ensure secure handling of API keys and uploaded documents.
-- [ ] Confirm the tool is scoped for internal evaluation only (non-public deployment).
+- [x] Implement document upload for PDF, CSV, and Word files and attach to prompts.
+- [x] Build a chat-like response view that includes any moderation responses.
+- [x] Show a loading spinner while waiting for LLM responses.
+- [x] User can select the models o3, o4-mini, gpt-5, gpt-5.1 and gpt-5.2
+- [x] When moderation is off for OpenAI, the request is sent to the selected model.
+- [x] When moderation is on for OpenAI the request is sent to the moderation model and then to the selected model.
+- [x] Implement provider integrations in Python with API key configuration.
+- [x] Deliver a local web UI accessible via browser.
+- [x] Document minimal setup and usage instructions.
+- [x] Ensure secure handling of API keys and uploaded documents.
+- [x] Confirm the tool is scoped for internal evaluation only (non-public deployment).
